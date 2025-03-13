@@ -70,3 +70,42 @@ header {
     font-size: 150;
     font-family: 'Times New Roman', Times, serif;
 }
+
+@media screen and (max-width: 992px) {
+    body {
+        background: purple;
+    }  
+     h1 {
+        color: rgb(225, 66, 151);
+        font-size: 2em;
+        background-color: black ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background: violet;
+    } 
+}
+
+@media  screen and (max-width: 600px) {
+    body {
+        background: plum;
+    } 
+    h1 {
+        color: deeppink;
+        font-size: 2em;
+        background-color: black ;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    body {
+        background: rgb(97, 73, 97);
+    } 
+    h1 {
+        color: rgb(231, 6, 126);
+        font-size: 2em;
+        background-color: black ;
+    }
+}
